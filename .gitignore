@@ -1,0 +1,9 @@
+bin/
+result/
+logs/
+target/
+test-output/
+reports/
+*.png
+*.jpg
+*.zip

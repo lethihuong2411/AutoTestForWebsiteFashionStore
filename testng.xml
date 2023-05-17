@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test name="Test1" group-by-instances="true" preserve-order="true">
+    <parameter name = "browser" value = "Chrome"/>  
+    <classes>
+	<!--         <class name = "TestSuite.Register"/>   -->
+    <!--       <class name = "TestSuite.Login"/>  -->
+    <!--       <class name = "TestSuite.Logout"/>  -->
+     <!--         <class name = "TestSuite.ChangePassword"/>   -->
+     
+    <!--         <class name = "TestSuite.Search"/>   -->
+    <!--         <class name = "TestSuite.Contact"/>   -->
+
+   
+    <!--         <class name = "TestSuite.UpdateAccount"/>   -->
+    <!--         <class name = "TestSuite.DetailInformation"/>   -->
+   <class name = "TestSuite.Login"/>  
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
