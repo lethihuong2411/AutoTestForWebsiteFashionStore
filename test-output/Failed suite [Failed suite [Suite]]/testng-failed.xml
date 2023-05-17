@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Suite]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)(failed)(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestSuite.Login">
+        <methods>
+          <include name="ITS_02_20"/>
+          <include name="setUpClass"/>
+          <include name="ITS_02_12"/>
+          <include name="setUpMethod"/>
+          <include name="ITS_02_10"/>
+          <include name="ITS_02_06"/>
+          <include name="ITS_02_17"/>
+          <include name="ITS_02_09"/>
+          <include name="ITS_02_07"/>
+          <include name="ITS_02_18"/>
+          <include name="beforeClass"/>
+          <include name="ITS_02_05"/>
+          <include name="ITS_02_11"/>
+          <include name="ITS_02_14"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="ITS_02_08"/>
+          <include name="ITS_02_19"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestSuite.Login -->
+    </classes>
+  </test> <!-- Test1(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
